@@ -1,0 +1,17 @@
+{
+  "name": "sw-helpers",
+  "version": "1.0.0",
+  "description": "SmartWeave wrapper to make development easier",
+  "main": "index.js",
+  "author": "sam hatem",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "smartweave": "https://arweave.net/QKWySKiNimiOU7taGjuh3eLCESmcbBO9A8iNw8FdUFc"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
