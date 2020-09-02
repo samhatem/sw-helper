@@ -1,17 +1,26 @@
 {
-  "name": "sw-helpers",
+  "name": "sw-helper",
   "version": "1.0.0",
   "description": "SmartWeave wrapper to make development easier",
-  "main": "index.js",
   "author": "sam hatem",
   "license": "MIT",
-  "private": false,
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "yarn clean && tsc",
+    "dev": "tsc -w",
+    "clean": "rimraf dist/"
+  },
   "dependencies": {
+    "arweave": "^1.9.1",
     "smartweave": "https://arweave.net/QKWySKiNimiOU7taGjuh3eLCESmcbBO9A8iNw8FdUFc"
   },
   "devDependencies": {
-    "typescript": "^4.0.2",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "@types/node": "^14.6.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samhatem/sw-helpers.git"
   }
 }
